@@ -1,7 +1,10 @@
 package Graphics::ColorNames::Mozilla;
-# $Id: Mozilla.pm,v 0.10 2002/04/14 21:13:50 steve Exp steve $
+# $Id: Mozilla.pm,v 0.11 2002/05/24 16:01:36 steve Exp steve $
 #
 # $Log: Mozilla.pm,v $
+# Revision 0.11  2002/05/24 16:01:36  steve
+# added dependancy on Graphics::ColorNames
+#
 # Revision 0.10  2002/04/14 21:13:50  steve
 # initial release
 #
@@ -51,7 +54,7 @@ use strict;
 
 use vars qw( $VERSION );
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 sub NamesRgbTable() {
     use integer;
